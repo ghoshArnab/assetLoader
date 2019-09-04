@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "npx lerna link --ci --force-local",
+    "clean": "node scripts/clean.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
